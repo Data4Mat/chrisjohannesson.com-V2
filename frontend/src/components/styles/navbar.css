@@ -1,0 +1,33 @@
+#brand-image {
+    width: 200px;
+}
+
+nav {
+    background: linear-gradient(royalblue, 35%, whitesmoke);
+}
+
+@media screen and (max-width: 319px) {
+    #brand-image {
+        width: 143px;
+    }
+
+    .navbar-toggler {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+
+    .nav-link {
+        font-size: small;
+    }
+
+    footer {
+        font-size: 0.6em;
+    }
+}

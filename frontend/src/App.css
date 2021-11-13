@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  background-image: linear-gradient(-18deg, whitesmoke, rgb(230, 243, 252), whitesmoke);
+
+}

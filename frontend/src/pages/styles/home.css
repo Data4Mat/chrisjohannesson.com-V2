@@ -1,0 +1,22 @@
+.page-head-title {
+  color: blue;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.info-text-wrapper {
+  padding: 0 15em;
+}
+.info-text {
+  color: brown;
+  background-color: rgba(0, 238, 255, 0.07);
+  font-size: 1.5em;
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 5px 5px rgba(100, 238, 255, 0.2);
+  border-width: 0px;
+}
+.info-text span {
+  display: inline-block;
+  padding-right: 0.3rem;
+}
