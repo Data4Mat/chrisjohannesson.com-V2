@@ -7,6 +7,7 @@ import About from './pages/About';
 import './App.css';
 
 const App = () => {
+  /* Using React V6 with Routes instead of Switch */
   return (
     <div className="App">
       <Router>
