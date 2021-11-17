@@ -20,5 +20,6 @@
 /frontend/gsap-member.zip
 /frontend/gsap-bonus.tgz
 /frontend/npm-debug.log*
+/frontend/src/test-area
 
 .vscode/

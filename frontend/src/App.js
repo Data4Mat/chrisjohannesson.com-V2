@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import About from './pages/About';
+import TestPage from './test-area/TestPage';
 import './App.css';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Router>
         <NavBar />
         <Routes>
+          <Route path="/test-page" element={<TestPage />} />
           <Route path="/" element={<Home />} exact />
           <Route exact path="/about" element={<About />} />
         </Routes>
