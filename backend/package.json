@@ -4,6 +4,7 @@
   "description": "Backend app to chrisjohannesson.com",
   "main": "app.js",
   "scripts": {
+    "dev": "echo ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -21,5 +22,11 @@
     "jsonwebtoken": "^8.5.1",
     "node": "^17.2.0",
     "npm": "^8.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
   }
 }
